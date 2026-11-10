@@ -1,0 +1,34 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.idea/
+.vscode/
+*.code-workspace
+
+# Build / temporary
+build/
+dist/
+*.o
+*.exe
+*.out
+*.log
+tmp/
+temp/
+
+# Python (if you use it)
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Node (if you use it)
+node_modules/
+npm-debug.log*
+
+# Secrets
+*.pem
+*.key
+secrets/
